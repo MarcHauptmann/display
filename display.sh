@@ -3,7 +3,7 @@
 TVSERVICE=/opt/vc/bin/tvservice 
 
 displayIsOn() {
-	$TVSERVICE -s | grep "state 0x12001a" > /dev/null
+	$TVSERVICE -s | grep "state 0x12000a" > /dev/null
 }
 
 turnOnDisplay() {
